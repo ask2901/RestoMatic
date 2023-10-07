@@ -25,3 +25,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+input,textarea{
+  @apply border-2 border-slate-400 rounded-md px-1 w-full;
+  @apply mb-2;
+}
+input:focus,textarea:focus{
+  @apply border-amber-400;
+}
+h1{
+  @apply text-amber-400 mb-2 text-xl;
+}
+label{
+  @apply text-amber-400;
+}
+.btn-primary{
+  @apply bg-amber-500 text-white px-4 py-1 rounded-md;
+}
+
+.main-page{
+  height: 60vh;
+}
